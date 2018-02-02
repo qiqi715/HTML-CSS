@@ -1,0 +1,41 @@
+1.p段落,最多显示三行，如果超过三行第三行省略(不换行如何省略)
+解决：js计算
+
+2.p中包含a 小图标，p不换行 溢出影藏影藏 省略号，但是存在省略小图标，如何操作
+解决：p下元素浮动，对a设置宽度
+
+3.a为块，可以包含a吗
+解决：不能
+
+4.首页灰色按钮btn2-gray 出现1px红点
+解决：位置计算错
+
+5.u-title中h4  34px行高，但是h4高度为36px;为什么会下面多出2px
+ <h4>
+	<span class="f-ff12">字体/span>
+ </h4>
+ 解决:将字体f-ff12放置h4
+
+6.<div class="img">
+	<a href="#"><img src="#" /></a>
+	<span class="mask"></span>
+	<span class="icn1"></span>
+</div>
+.img 相对定位
+.mask,.icn1绝对定位，
+因为mask大小跟a的大小一样，mask定位层级高于不定位的，a标签被遮盖
+解决：用相对定位提高a标签层级，.mask z-index=1,.a 2 ,icn1 3
+
+7.
+<div>
+	<span class="icn1"></span>
+	<ul></ul>
+	<ul></ul>
+</div>
+ul宽占父级100%，父级div溢出影藏,.icn1 绝对定位left负值该icn1也会隐藏
+解决:两个ul用div包起来
+
+8.div中inline-block类型的标签换行解析为空格
+解决：法1：float
+	法2：父级字体0，子级标签单独设置字体大小
+	绝对定位是不是也不会出现空格

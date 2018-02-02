@@ -1,0 +1,7 @@
+云音乐 发现音乐
+推荐		index.html	https://music.163.com/	
+排行榜		html/phb.html	https://music.163.com/#/discover/toplist
+歌单		html/gd.html	https://music.163.com/#/discover/playlist
+主播电台		html/zbdt.html	https://music.163.com/#/discover/djradio
+歌手		html/gs.html	https://music.163.com/#/discover/artist
+新碟上架		html/xdsj.html	https://music.163.com/#/discover/album
